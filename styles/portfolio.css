@@ -1,0 +1,109 @@
+*{
+    margin : 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header */
+.header{
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: right;
+    padding: 316px 14% 316px 55%;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 65px;;
+    color: white;
+}
+.header-description{
+    margin: 20px 0px;
+    font-size: 16px;
+    color: white;
+    line-height: 150%;
+}
+
+/* all-section for alignment & common element*/
+.common-button{
+    width: 160px;
+    height: 64px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color : #173506;
+}
+.all-section{
+    padding: 0px 300px;
+}
+.common-title{
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+.common-description{
+    margin: 20px 0px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 150%;
+}
+/* failures section */
+.my-failures{
+    margin: 120px 0px 300px 0px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.my-failures-content{
+    background-color: #86caef28;
+    padding: 100px 150px;
+    text-align: left;
+    border-radius: 10px;
+    
+    
+}
+.failures-list{
+    list-style:url(../images/icons/check-solid.svg);
+    line-height: 150%;
+    color: #073c75d5;
+    margin-left: -23px;
+}
+/* My Plan */
+.my-plan-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.my-plan-section{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.my-plan-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+.my-plan-description{
+    font-size: 25px;
+    color: #747474;
+    margin-bottom: 200px;
+}
+/* Positvie mindset*/
+.positive-mindset
+{
+        background-image:
+        linear-gradient(to right, rgb(2, 120, 223), rgba(255, 255, 255, 0)),
+        url('../images/watch.png');
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        color: white;
+        padding: 20px 20px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 60px;
+        text-align: left;
+}

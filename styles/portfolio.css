@@ -64,7 +64,7 @@
     
 }
 .failures-list{
-    list-style:url(../images/icons/check-solid.svg);
+    list-style:url('../images/icons/check-solid.svg');
     line-height: 150%;
     color: #073c75d5;
     margin-left: -23px;
